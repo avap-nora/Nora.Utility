@@ -8,8 +8,12 @@ class Globals
     public $post;
     public $env;
 
-    public function __construct($server = null, $get = null, $post = null, $env = null)
-    {
+    public function __construct(
+        $server = null,
+        $get = null,
+        $post = null,
+        $env = null
+    ) {
         $this->server = $server ?? $_SERVER ?? [];
         $this->get    = $get ?? $_GET ?? [];
         $this->post   = $post ?? $_POST ?? [];

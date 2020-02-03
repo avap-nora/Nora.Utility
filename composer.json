@@ -1,7 +1,7 @@
 {
-    "name": "avap/nora-utility",
-    "description": "",
-    "type": "project",
+    "name": "avap/nora-php-utility",
+    "description": "php utility's",
+    "type": "library",
     "authors": [
         {
             "name": "Hajime MATSUMOTO",
