@@ -1,7 +1,7 @@
 <?php
 namespace Nora\Utility\DotEnv;
 
-use Nora\Dotenv\Exception\EnvFileNotFound;
+use Nora\Utility\Dotenv\Exception\EnvFileNotFound;
 use ReflectionClass;
 
 class DotEnv
