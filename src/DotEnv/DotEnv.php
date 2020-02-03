@@ -58,9 +58,9 @@ class DotEnv
         if (!file_exists($file)) {
             if (file_exists($file.".dist")) {
                 $file = $file.'.dist';
-            } else {
-                // throw new EnvFileNotFound("Env {$file} Not Found");
             }
+            // throw new EnvFileNotFound("Env {$file} Not Found");
+            return [];
         }
         $lines = array_filter(
             explode(
