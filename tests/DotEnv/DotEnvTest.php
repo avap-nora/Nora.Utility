@@ -3,12 +3,13 @@ declare(strict_types=1);
 
 namespace Nora\Utility;
 
+use Nora\Utility\DotEnv\DotEnv;
 use PHPUnit\Framework\TestCase;
 
-class UtilityTest extends TestCase
+class DotEnvTest extends TestCase
 {
     public function testIsTrue()
     {
-        $this->assertInstanceOf(Utility::class, new Utility());
+        $this->assertInstanceOf(DotEnv::class, new DotEnv(__DIR__));
     }
 }
